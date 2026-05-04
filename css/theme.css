@@ -51,7 +51,7 @@ table {
 /********************
 		COLOR
 ********************/
-/*Primary color*/
+/* Primary colors */
 --p-50: #ecfeff;
 --p-100: #cefafe;
 --p-200: #a2f4fd;
@@ -64,6 +64,66 @@ table {
 --p-900: #104e64;
 --p-950: #053345;
 
+/* Neutrals */
+/* Light */
+--l-foreground: #fbfbfb;
+--l-background: #eff1f1;
+--l-border: #dde1e2;
+--l-copy: #232829;
+--l-copy-light: #5e6c6e;
+--l-copy-lighter: #849395;
+/* Dark */
+--d-foreground: #232829;
+--d-background: #181b1b;
+--d-border: #3b4345;
+--d-copy: #fbfbfb;
+--d-copy-light: #d6dbdc;
+--d-copy-lighter: #9fabac;
 
+/* Gradients */
+--main-gradient-color: linear-gradient(
+	to right,
+	var(--p-400),
+	var(--p-500)
+);
+--gradient-color: linear-gradient(
+	to right,
+	#439cfb,
+	#f187fb
+);
 
+/********************
+		FONTS		Scale 1.125
+********************/
+/* 32px */
+--h1-font-size: 2rem;
+ /* 36px */
+--h1-line-height: 2.25rem;
+
+ /* 26px */
+--h2-font-size: 1.6rem;
+ /* 32px */
+--h2-line-height: 2rem;
+
+ /* 20px */
+--h3-font-size: 1.266rem;
+ /* 24px */
+--h3-line-height: 1.5rem;
+
+ /* 18px */
+--h4-font-size: 1.125rem;
+ /* 16px */
+--h4-line-height: 1.5rem;
+
+ /* 16px */
+--p-font-size: 1rem;
+ /* 24px */
+--p-line-height: 1.5rem;
+
+--p-letter-spacing: 0.025rem;
+
+ /* 12px */
+--caption-font-size: 0.875rem;
+ /* 16px */
+--caption-line-height: 1rem;
 }
