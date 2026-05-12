@@ -484,3 +484,26 @@ img {
         gap: 12px;
     }
 }
+.site-header.active {
+    background: rgba(15, 23, 42, 0.8);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.45);
+}
+
+.site-header nav a.active {
+    color: white;
+}
+
+.site-header nav a.active::after {
+    width: 100%;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.8s ease;
+}
